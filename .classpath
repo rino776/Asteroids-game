@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_71]"/>
+	<classpathentry kind="lib" path="jarsAndLibraries/lwjgl-2.9.1/jar/lwjgl.jar" sourcepath="jarsAndLibraries/lwjgl-source-2.9.1">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Testing/jarsAndLibraries/lwjgl-2.9.1/native/macosx"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jarsAndLibraries/SoundSystem/SoundSystem.jar" sourcepath="jarsAndLibraries/SoundSystem/src"/>
+	<classpathentry kind="lib" path="jarsAndLibraries/LibraryLWJGLOpenAL/LibraryLWJGLOpenAL.jar" sourcepath="jarsAndLibraries/LibraryLWJGLOpenAL/src"/>
+	<classpathentry kind="lib" path="jarsAndLibraries/CodecWav/CodecWav.jar" sourcepath="jarsAndLibraries/CodecWav/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
