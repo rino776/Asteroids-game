@@ -8,11 +8,6 @@ public class Score {
 	private float dy;
 	private int score;
 	
-	@SuppressWarnings("unused")
-	private Texture tex;
-	
-	@SuppressWarnings("unused")
-	private Texture bitMap;
 	
 	private int ones;
 	private int tens;

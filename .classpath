@@ -3,12 +3,24 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="jarsAndLibraries/lwjgl-2.9.1/jar/lwjgl.jar" sourcepath="jarsAndLibraries/lwjgl-source-2.9.1">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Testing/jarsAndLibraries/lwjgl-2.9.1/native/macosx"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Asteroids-game/jarsAndLibraries/lwjgl-2.9.1/native/windows"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="jarsAndLibraries/SoundSystem/SoundSystem.jar" sourcepath="jarsAndLibraries/SoundSystem/src"/>
-	<classpathentry kind="lib" path="jarsAndLibraries/LibraryLWJGLOpenAL/LibraryLWJGLOpenAL.jar" sourcepath="jarsAndLibraries/LibraryLWJGLOpenAL/src"/>
-	<classpathentry kind="lib" path="jarsAndLibraries/CodecWav/CodecWav.jar" sourcepath="jarsAndLibraries/CodecWav/src"/>
+	<classpathentry kind="lib" path="jarsAndLibraries/SoundSystem/SoundSystem.jar" sourcepath="jarsAndLibraries/SoundSystem/src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Asteroids-game/jarsAndLibraries/SoundSystem"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jarsAndLibraries/LibraryLWJGLOpenAL/LibraryLWJGLOpenAL.jar" sourcepath="jarsAndLibraries/LibraryLWJGLOpenAL/src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Asteroids-game/jarsAndLibraries/LibraryLWJGLOpenAL"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="jarsAndLibraries/CodecWav/CodecWav.jar" sourcepath="jarsAndLibraries/CodecWav/src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Asteroids-game/jarsAndLibraries/CodecWav"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
