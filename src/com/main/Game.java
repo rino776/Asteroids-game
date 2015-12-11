@@ -15,6 +15,7 @@ public static ArrayList<Enemy> dead;
 	public static Texture shipFire;
 	public static Texture shipNoFire;
 	public static Texture asteriod;
+	
 	//player(dah)
 	static Player p1;
 	private static int numEnemy;
@@ -58,7 +59,7 @@ public static ArrayList<Enemy> dead;
 		moreEnemies = false;
 		moreSeeker = false;
 		counter = 0;
-		score = new Score(600, 500);
+		score = new Score(770, 570);
 		
 		Main.soundSystem.backgroundMusic("background", "Background.wav", true);
 		
@@ -175,6 +176,7 @@ public static ArrayList<Enemy> dead;
 	public static void render(){
 		p1.draw();
 		hp.draw();
+		score.draw();
 		
 		for(Bullet b : bullets){
 			b.draw();

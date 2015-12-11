@@ -28,7 +28,7 @@ public static void draw(float x, float y, float dx, float dy, float rz, Texture 
 		glPushMatrix();
 		glTranslatef(x,y,0);
 		glRotatef(rz,0,0,1);
-		
+		glRotatef(180,0,1,0);
 		glBindTexture(GL_TEXTURE_2D, tex.id);
 		//TODO Bug here.
 		//for some reason yand x are flipped?
@@ -49,4 +49,5 @@ public static void draw(float x, float y, float dx, float dy, float rz, Texture 
 		glPopMatrix();
 		
 	}
+
 }

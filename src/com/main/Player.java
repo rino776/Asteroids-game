@@ -73,6 +73,7 @@ private int counter = 0;
 		}
 		if(Keyboard.isKeyDown(Keyboard.KEY_SPACE)){
 			tryShoot = true;
+			speed -=0.1;
 		}
 		
 		//TODO decide if I want this, or if I want to have to press a button
